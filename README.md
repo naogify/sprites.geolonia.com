@@ -34,6 +34,16 @@ $ npm run build-icon # アイコンをビルド
 $ npm run build-html # HTML ページをビルド
 ```
 
+## アイコンカラーの変更
+
+1. https://labs.mapbox.com/maki-icons/editor/ に移動。
+2. 「New / Import」をクリック。
+3. 「Discard icons & create a new set」の「Empty」をクリック。
+4. 「Upload icons」の「Add SVGs」をクリック。
+5. `src/` 配下の svg アイコンを全てアップロード。
+6. 編集して「Download」から編集済みアイコンを、`src` 配下にダウンロード。
+7. `$ npm run build-icon` を実行。
+
 プルリクエストや Issue はいつでも歓迎します。
 
 [https://github.com/geolonia/sprites.geolonia.com](https://github.com/geolonia/sprites.geolonia.com)
